@@ -1,0 +1,11 @@
+let alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
+        
+var p1 = alphabet.randomElement()!
+var p2 = alphabet.randomElement()!
+var p3 = alphabet.randomElement()!
+var p4 = alphabet.randomElement()!
+var p5 = alphabet.randomElement()!
+var p6 = alphabet.randomElement()!
+
+var password = p1 + p2 + p3 + p4 + p5 + p6
+print(password)
